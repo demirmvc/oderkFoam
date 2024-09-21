@@ -15,6 +15,12 @@ int main(int argc, char *argv[])
     dimensionedScalar b("b", dimensionSet(0, 1, -1, 0, 0, 0, 0), 1.0);
     double a = 1.0;
     double omega = 10.0;
+
+  //  volVectorField dydt(scalar t,volVectorField U)
+ //   {
+   //     return (-a*U + b*vector(Foam::cos(omega*t), 0, 0));
+  //  }
+
     while (runTime.loop())
     {
         Info<< "Time = " << runTime.timeName() << nl << endl;
