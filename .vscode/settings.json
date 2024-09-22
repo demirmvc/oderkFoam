@@ -1,6 +1,12 @@
 {
     "files.associations": {
         "pisoFoam.C": "cpp",
-        "oderkFoam.C": "cpp"
+        "oderkFoam.C": "cpp",
+        "1.C": "cpp",
+        "optional": "cpp",
+        "system_error": "cpp",
+        "ostream": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp"
     }
 }
